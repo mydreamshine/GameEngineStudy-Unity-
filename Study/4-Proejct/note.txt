@@ -1,0 +1,23 @@
+Pro Builder, Pro Grid
+
+Pro Builder
+  - 프로토타입을 개발하는데 유용한 도구
+  - 세부적인 메시 컨트롤이 가능하며, .obj로 내보내기도 가능함
+  - 간단한 UV 에디팅이 가능함
+
+Pro Grid
+  - Grid를 이용하여 규칙적인 공간 구성이 가능
+  - 캐릭터의 움직임 단위를 파악한 후
+  - Pro Grid는 아직 Preview패키지이므로
+    PakageManager를 통해 설치할 경우에는
+    Enable Preview Pakage를 프로젝트 세팅에서 설정해줘야 한다.
+
+vs를 쓸 경우에는
+C# version을 1.23.0으로 다운그레이드
+그리고 Auto-Using for C# 플러그인을 설치
+.NET Framework를 unity의 버젼에 맞게.
+
+프로젝트 설정에서 Active Input Handling으로
+InputSystem 설정
+
+맵핑된 InputAction을 이벤트에 따라 활성/비활성화 할 수 있다
